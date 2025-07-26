@@ -1,20 +1,10 @@
 @import "tailwindcss";
 
 .body {
-    padding: 0;
+    margin: 0;
 }
 
 .root {
-    height: 100%;
-    width: 100%;
-}
-
-.titlebar {
-    height: 100px;
-    background-color: white;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    app-region: drag;
+    width: 100vw;
+    height: 100vh;
 }
